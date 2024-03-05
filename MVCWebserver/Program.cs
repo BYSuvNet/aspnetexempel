@@ -1,3 +1,4 @@
+// Skapa en builder för att konfigurera webbapplikationen med olika services
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Lägg till stöd för att använda controllers med vyer (HTML-sidor)
