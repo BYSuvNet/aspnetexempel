@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalWebAPI", "MinimalWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebserver", "MVCWebserver\MVCWebserver.csproj", "{6EED81D2-7368-4FC3-A2E4-8DAD968DC821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{C0442399-E585-461A-A268-C6725F3EA9D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6EED81D2-7368-4FC3-A2E4-8DAD968DC821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EED81D2-7368-4FC3-A2E4-8DAD968DC821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EED81D2-7368-4FC3-A2E4-8DAD968DC821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0442399-E585-461A-A268-C6725F3EA9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0442399-E585-461A-A268-C6725F3EA9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0442399-E585-461A-A268-C6725F3EA9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0442399-E585-461A-A268-C6725F3EA9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
