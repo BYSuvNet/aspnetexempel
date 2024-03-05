@@ -1,9 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Lägg till stöd för att använda controllers med vyer (HTML-sidor)
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 // Lägg till routing (Läs mer här: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/routing)
 app.MapControllerRoute(
