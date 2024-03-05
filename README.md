@@ -8,3 +8,6 @@ Ett så enkelt webapi som möjligt. Har några endpoints för GET som returnerar
 
 ### MVCWebserver
 En så enkelt MVC-webserver som möjligt. Har en controller som kan returnera två olika views, Index och About.
+
+### WebApi
+Ett webapi som som använder sig av en controller-klass. Fungerar i övrigt som MinimalWebApi.
