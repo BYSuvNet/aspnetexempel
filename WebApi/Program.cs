@@ -2,7 +2,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 app.MapControllers();
 
