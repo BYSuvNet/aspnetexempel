@@ -4,6 +4,13 @@ namespace MVCWebserver.Controllers;
 
 public class HomeController : Controller
 {
+    private readonly IMyService _myService;
+
+    public HomeController(IMyService myService)
+    {
+        _myService = myService;
+    }
+
     //Denna metod returnerar en vy (HTML-sida) som ligger i mappen Views/Home/Index.cshtml
     public IActionResult Index()
     {
@@ -23,5 +30,12 @@ public class HomeController : Controller
     {
         List<string> names = new List<string> { "Adam", "Bertil", "Cesar" };
         return View(names);
+    }
+
+    //Denna metod returnerar en vy (HTML-sida) som ligger i mappen Views/Home/Model.cshtml
+    public IActionResult Service()
+    {
+        List<string> data = _myService.GetData();
+        return View(data);
     }
 }

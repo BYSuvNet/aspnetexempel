@@ -3,6 +3,8 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Lägg till stöd för att använda controllers med vyer (HTML-sidor)
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IMyService, MyService>();
+builder.Services.AddHttpClient();
 
 WebApplication app = builder.Build();
 
